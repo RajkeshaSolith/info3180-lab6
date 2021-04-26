@@ -3,5 +3,37 @@ body {
 }
 
 footer  {
-    padding-top: 20px;
+    padding-top: 30px;
 }
+
+.news {
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+.news__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    
+}
+
+.news__item{
+    margin: 0.5rem;
+    border-radius: 5px;
+    border-top: 5px solid rgb(4, 105, 131);
+    padding: 10px;
+    box-shadow: 5px 10px 10px 5px rgb(151, 150, 150);
+}
+
+
+.news__item img{
+    width: 90%;
+	height:30%;
+	/*padding: 10px;*/
+}
+
+
+
